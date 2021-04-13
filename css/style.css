@@ -1,0 +1,93 @@
+* { 
+    box-sizing: border-box;  /* to not affect the box size with the padding */
+}
+
+body{
+background-color: white;
+padding: 5px;
+
+}
+
+header{
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+nav{
+  background-color:  #333;
+}
+
+nav ul {
+    position: relative;
+    margin: 20px;
+}
+nav ul:first-child {
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.651);
+    font-weight: bold;
+}
+
+section article div{
+    align-items: center;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#div2{
+    align-items: center;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+#div2 img{
+    padding: 13px;
+}
+
+#left{
+    padding: 0px;
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+}
+
+#left img {
+    display: inline-block;
+    
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+p{
+    width: 500px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: gray;
+    padding-bottom: 150px;
+}
+
